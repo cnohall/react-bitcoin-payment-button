@@ -13,6 +13,8 @@ Receive Bitcoin Payments on your React website through the [Blockonomics](https:
 
 ### Usage
 
+To use the Blockonomics Payment Button you first need to generate a UID. To generate an UID follow this [guide](https://www.youtube.com/watch?v=aRdcKrMcqSA&t=0s).
+
 Example:
 ```
 import React from 'react';
