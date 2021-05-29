@@ -1,7 +1,15 @@
 {
   "name": "react-bitcoin-payment-button",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Receive Bitcoin Payments on your React website through the [Blockonomics](https://www.blockonomics.co/) Payment Button",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnohall/react-bitcoin-pay-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cnohall/react-bitcoin-pay-button/issues"
+  },
+  "homepage": "https://github.com/cnohall/react-bitcoin-pay-button#readme",
   "main": "lib/index.js",
   "browser": "lib/index.umd.js",
   "module": "lib/index.es.js",
@@ -13,7 +21,7 @@
     "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },
   "keywords": [],
-  "author": "",
+  "author": "cnohall",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.3",
