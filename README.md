@@ -1,12 +1,17 @@
 # react-bitcoin-payment-button
-Receive Bitcoin Payments on your React website through the Blockonomics Payment Button
+Receive Bitcoin Payments on your React website through the [Blockonomics](https://www.blockonomics.co/) Payment Button.
+
+
 
 ### Installation
 
 `npm i react-bitcoin-payment-button`
 
-### Usage
+### Demo
 
+![Demonstration](src/image/demo.gif)
+
+### Usage
 
 Example:
 ```
