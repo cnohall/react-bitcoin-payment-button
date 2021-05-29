@@ -20,7 +20,7 @@
     "prepublishOnly": "rm -rf lib && npm run build",
     "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },
-  "keywords": [],
+  "keywords": ["Blockonomics", "Bitcoin", "React", "Payment", "Button"],
   "author": "cnohall",
   "license": "ISC",
   "devDependencies": {
