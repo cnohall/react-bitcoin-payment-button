@@ -36,6 +36,9 @@ export default function BitcoinPaymentButton({ uid, imageURL, font, backgroundCo
   #blockoCopyAddressText{
     color: ${descriptionColor};
   }
+  #timeRemainingText{
+    color: ${descriptionColor};
+  }
   #blockoPayModal.modal .btn-warning {
     background-color: ${buttonColor};
     border-color: ${buttonColor};
