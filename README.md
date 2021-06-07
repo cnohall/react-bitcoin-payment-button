@@ -31,7 +31,7 @@ export default function App() {
 
 ### Customization
 
-![Demonstration](src/image/demo.gif)
+![Demonstration](src/image/customization_demo.gif)
 
 The customized example above was accomplished by passing the following props to BitcoinPaymentButton:
 ```
