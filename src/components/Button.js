@@ -6,7 +6,7 @@ export default function BitcoinPaymentButton({ uid, imageURL, font, backgroundCo
   //Set default values or the new values from props
   const image = (imageURL) ? imageURL : "https://www.blockonomics.co/img/pay_with_bitcoin_medium.png";
   font = (font) ? font : `"Helvetica Neue", Helvetica, Arial, sans-serif`;
-  backgroundColor = (backgroundColor) ? "backgroundColor" : "#f4f4f4";
+  backgroundColor = (backgroundColor) ? backgroundColor : "#f4f4f4";
   descriptionColor = (descriptionColor) ? descriptionColor : "#333333";
   titleColor = (titleColor) ? titleColor : "#333333";
   hideBlockonomics = (hideBlockonomics) ? "none" : "block";
