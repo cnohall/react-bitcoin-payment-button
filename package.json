@@ -1,6 +1,6 @@
 {
   "name": "react-bitcoin-payment-button",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "description": "Receive Bitcoin Payments on your React website through the [Blockonomics](https://www.blockonomics.co/) Payment Button",
   "repository": {
     "type": "git",
