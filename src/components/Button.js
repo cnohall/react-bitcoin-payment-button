@@ -9,6 +9,8 @@ export default function BitcoinPaymentButton({ uid, imageURL, font, backgroundCo
   backgroundColor = (backgroundColor) ? backgroundColor : "#f4f4f4";
   descriptionColor = (descriptionColor) ? descriptionColor : "#333333";
   titleColor = (titleColor) ? titleColor : "#333333";
+  buttonColor = (buttonColor) ? buttonColor : "#333333";
+  hoverColor = (hoverColor) ? hoverColor : "#333333";
   hideBlockonomics = (hideBlockonomics) ? "none" : "block";
   inputHeights = (inputHeights) ? inputHeights : "34px";
   progressbarColor = (progressbarColor) ? progressbarColor : "#09CA83";
