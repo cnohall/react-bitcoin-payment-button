@@ -70,7 +70,7 @@ export default function App() {
 | backgroundColor     | "#f4f4f4" | 
 | titleColor          | "#333333" | 
 | descriptionColor    | "#333333" |   
-| buttonColor         | "#ec971f" |
+| buttonColor         | "#f0ad4e" |
 | hoverColor          | "#ec971f" | 
 | hideBlockonomics    | false      |   
 | inputHeights        | "34px"      | 
