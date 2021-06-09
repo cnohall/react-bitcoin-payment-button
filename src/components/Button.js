@@ -1,20 +1,20 @@
-import React from "react";
+
 import postscribe from 'postscribe';
 
-export default function BitcoinPaymentButton({ uid, imageURL, font, backgroundColor, descriptionColor, titleColor, buttonColor, hoverColor, hideBlockonomics, inputHeights, progressbarColor, BTCAmountColor}) {
+export default function BitcoinPaymentButton( element, { uid, imageURL, font, backgroundColor, descriptionColor, titleColor, buttonColor, hoverColor, hideBlockonomics, inputHeights, progressbarColor, BTCAmountColor}) {
 
   //Set default values or the new values from props
   const image = (imageURL) ? imageURL : "https://www.blockonomics.co/img/pay_with_bitcoin_medium.png";
-  font = (font) ? font : `"Helvetica Neue", Helvetica, Arial, sans-serif`;
-  backgroundColor = (backgroundColor) ? backgroundColor : "#f4f4f4";
-  descriptionColor = (descriptionColor) ? descriptionColor : "#333333";
-  titleColor = (titleColor) ? titleColor : "#333333";
-  buttonColor = (buttonColor) ? buttonColor : "#f0ad4e";
-  hoverColor = (hoverColor) ? hoverColor : "#ec971f";
-  hideBlockonomics = (hideBlockonomics) ? "none" : "block";
-  inputHeights = (inputHeights) ? inputHeights : "34px";
-  progressbarColor = (progressbarColor) ? progressbarColor : "#09CA83";
-  BTCAmountColor = (BTCAmountColor) ? BTCAmountColor : "#059e66";
+  const font = (font) ? font : `"Helvetica Neue", Helvetica, Arial, sans-serif`;
+  const backgroundColor = (backgroundColor) ? backgroundColor : "#f4f4f4";
+  const descriptionColor = (descriptionColor) ? descriptionColor : "#333333";
+  const titleColor = (titleColor) ? titleColor : "#333333";
+  const buttonColor = (buttonColor) ? buttonColor : "#f0ad4e";
+  const hoverColor = (hoverColor) ? hoverColor : "#ec971f";
+  const hideBlockonomics = (hideBlockonomics) ? "none" : "block";
+  const inputHeights = (inputHeights) ? inputHeights : "34px";
+  const progressbarColor = (progressbarColor) ? progressbarColor : "#09CA83";
+  const BTCAmountColor = (BTCAmountColor) ? BTCAmountColor : "#059e66";
 
   const id = '#root';
   postscribe(id, '<script src="https://www.blockonomics.co/js/pay_button.js"></script>');
@@ -63,12 +63,18 @@ export default function BitcoinPaymentButton({ uid, imageURL, font, backgroundCo
   } 
   </style>`);
 
-
-  return (
-    <div>
-      <a href="" className="blockoPayBtn" id={uid} data-toggle="modal" data-uid={uid}>
-        <img width="160" src={image}/>
-      </a>
-    </div>
-  );
+  const paymentButton = document.createElement("a");
+  paymentButton.setAttribute("class", "blockoPayBtn");
+  paymentButton.setAttribute("href", "");
+  paymentButton.setAttribute("data-toggle", "modal");
+  paymentButton.setAttribute("data-uid", uid);
+  paymentButton.setAttribute("data-toggle", "modal");
+  
+  const buttonImage = document.getElementById("img");
+  buttonImage.setAttribute("width", 160);
+  buttonImage.setAttribute("src", image);
+  
+  paymentButton.appendChild(buttonImage);
+  element.appendChild(paymentButton);
+  return element;
 }

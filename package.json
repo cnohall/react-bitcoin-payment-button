@@ -1,7 +1,7 @@
 {
-  "name": "react-bitcoin-payment-button",
-  "version": "0.2.8",
-  "description": "Receive Bitcoin Payments on your React website through the [Blockonomics](https://www.blockonomics.co/) Payment Button",
+  "name": "javascript-bitcoin-payment-button",
+  "version": "0.1.0",
+  "description": "Receive Bitcoin Payments on your website through the [Blockonomics](https://www.blockonomics.co/) Payment Button",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cnohall/react-bitcoin-payment-button.git"
@@ -23,7 +23,7 @@
   "keywords": [
     "Blockonomics",
     "Bitcoin",
-    "React",
+    "Javascript",
     "Payment",
     "Button"
   ],
@@ -34,9 +34,6 @@
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-styleguidist": "^11.1.7",
     "rollup": "^2.51.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
