@@ -4,12 +4,12 @@
   "description": "Receive Bitcoin Payments on your website through the [Blockonomics](https://www.blockonomics.co/) Payment Button",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnohall/react-bitcoin-payment-button.git"
+    "url": "git+https://github.com/cnohall/javascript-bitcoin-payment-button.git"
   },
   "bugs": {
-    "url": "https://github.com/cnohall/react-bitcoin-payment-button/issues"
+    "url": "https://github.com/cnohall/javascript-bitcoin-payment-button/issues"
   },
-  "homepage": "https://github.com/cnohall/react-bitcoin-payment-button#readme",
+  "homepage": "https://github.com/cnohall/javascript-bitcoin-payment-button#readme",
   "main": "lib/index.js",
   "browser": "lib/index.umd.js",
   "module": "lib/index.es.js",
