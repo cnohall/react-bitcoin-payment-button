@@ -46,8 +46,8 @@ export default function App() {
         imageURL="https://cdn.iconscout.com/icon/free/png-512/bitcoin-390-920575.png"
         font="Roboto, Helvetica, Arial, sans-serif"
         backgroundColor="#131a22"
-        descriptionColor="#fff"
         titleColor="#fff"
+        descriptionColor="#fff"
         buttonColor="#428bca"
         hoverColor="#254563" 
         hideBlockonomics="true"
@@ -59,3 +59,20 @@ export default function App() {
   );
 }
 ```
+
+### Properties
+
+| Properties          | Original value| 
+| -------------       |-------------|
+| uid                 | To generate an UID follow this [guide](https://www.youtube.com/watch?v=aRdcKrMcqSA&t=0s)  | 
+| imageURL            | "https://www.blockonomics.co/img/pay_with_bitcoin_medium.png"      |   
+| font                | "Helvetica Neue", Helvetica, Arial, sans-serif      |  
+| backgroundColor     | "#f4f4f4" | 
+| titleColor          | "#333333" | 
+| descriptionColor    | "#333333" |   
+| buttonColor         | "#ec971f" |
+| hoverColor          | "#ec971f" | 
+| hideBlockonomics    | false      |   
+| inputHeights        | "34px"      | 
+| progressbarColor    | "#09CA83"      |   
+| BTCAmountColor      | "#059e66"      |  
